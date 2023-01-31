@@ -16,7 +16,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +39,6 @@ public class GUI extends JFrame implements ActionListener {
     private JFrame frame;
     private JPanel leftPanel;
     private JPanel rightPanel;
-   // private JPanel gifPanel = null;
     private JTextField userInput;
     private JTextField userShareInput;
     private JLabel userPrompt;
@@ -81,8 +79,6 @@ public class GUI extends JFrame implements ActionListener {
                 updateStocks();
                 updateMktValue();
                 account.sumPortfolio();
-                // System.out.println(indexStockList.size());
-                // System.out.println(account.getPortfolio().size());
             }
         });
         timer.setInitialDelay(0);
@@ -379,36 +375,8 @@ public class GUI extends JFrame implements ActionListener {
             rightPanel.add(new JLabel("Market value: " + this.account.getPortfolio().get(i).marketValue));
             rightPanel.add(new JLabel("Gain/Loss (unrealized): " + this.account.getPortfolio().get(i).gainLoss));
             rightPanel.add(new JLabel("______________________________________"));
-//            if ((this.account.getInvestmentsValue() - this.account.getBookCost()) > 0) {
-//                addGif();
-//            }
         }
     }
-
-//    // EFFECTS: adds visual component to GUI
-//    public void addGif() throws MalformedURLException {
-//        URL url = new URL("https://media.tenor.com/images/b55bff5a514d97b0397ba494038b07d4/tenor.gif");
-//        ImageIcon icon = new ImageIcon(url);
-//        JLabel gif = new JLabel(icon);
-//        gifPanel = new JPanel();
-//        gifPanel.add(gif);
-//        gifPanel.setPreferredSize(new Dimension(220, 550));
-//        gifPanel.setBackground(Color.ORANGE);
-//        frame.add(gifPanel, BorderLayout.EAST);
-//        frame.pack();
-//        frame.revalidate();
-//        frame.repaint();
-//    }
-
-//    // EFFECTS: removes visual component from GUI
-//    public void removeGif() {
-//        if (gifPanel != null) {
-//            frame.remove(gifPanel);
-//            frame.pack();
-//            frame.revalidate();
-//            frame.repaint();
-//        }
-//    }
 
     // EFFECTS: displays current balance
     public void viewBalanceSetup() {

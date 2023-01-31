@@ -2,10 +2,7 @@ package webdata;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-
 import java.io.IOException;
-import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -32,7 +29,7 @@ public class WebScraper {
                 String ticker = doc.select(".col-lg-7 > div:nth-child(1) > div:nth-child(2) > " +
                         "table:nth-child(1) > tbody:nth-child(2)").select("tr").get(i).children().get(2).text();
                 Number price = format.parse(doc.select(".col-lg-7 > div:nth-child(1) > div:nth-child(2) > " +
-                        "table:nth-child(1) > tbody:nth-child(2)").select("tr").get(0).children().get(4).text());
+                        "table:nth-child(1) > tbody:nth-child(2)").select("tr").get(i).children().get(4).text());
                 names.add(name);
                 symbols.add(ticker);
                 prices.add(price.doubleValue());

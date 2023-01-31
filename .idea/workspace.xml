@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef07d1d4-a319-472d-8165-14726ac5e9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/account.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/testAccountFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Holding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ui/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/Saveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webdata/WebScraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/HoldingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/persistence/ReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/persistence/WriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webdata/WebScraperTest.java" afterDir="false" />
+    <list default="true" id="ef07d1d4-a319-472d-8165-14726ac5e9c0" name="Changes" comment="// initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webdata/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webdata/WebScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/persistence/ReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/persistence/ReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/persistence/WriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/persistence/WriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webdata/WebScraperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webdata/WebScraperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ui.Main" />
@@ -144,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674893373991</updated>
     </task>
+    <task id="LOCAL-00001" summary="// initial">
+      <created>1674957908987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674957908987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="// initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="// initial" />
   </component>
 </project>
