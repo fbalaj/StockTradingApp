@@ -14,3 +14,8 @@ Then the user's portfolio would look like:
 ![ba3](https://user-images.githubusercontent.com/105755993/215632591-a5e9badb-7307-429d-a97f-59989df45ffc.PNG)
 
 The market value and gain/loss is subject to change based on real-world price movement of $TSLA
+
+As of 02/06/23, the share price of TSLA is $194.4 USD, and an unrealized gain of $282 is reflected in the user portfolio: 
+
+
+![ba4](https://user-images.githubusercontent.com/105755993/217099581-8185e3dd-998c-4c26-8388-f5c62f2c32f3.PNG)
